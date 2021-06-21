@@ -1,0 +1,37 @@
+p {
+  font-family: "Gorditas", cursive;
+}
+h1 {
+  display: inline;
+}
+.head h1 {
+  font-size: 25px;
+}
+.contents {
+  float: right;
+}
+li {
+  display: inline-block;
+}
+.content {
+  margin: 10px;
+  font-size: 15px;
+}
+.relative {
+  position: relative;
+}
+.back_img {
+  margin: 10% 0% 0% 50%;
+  width: 50vw;
+}
+.absolute {
+  position: absolute;
+  top: 28vw;
+  font-size: 5vw;
+}
+.color {
+  background: linear-gradient(-90deg, #0000cd, #00008b);
+  width: 90vw;
+  height: 15vw;
+  margin: -10vw;
+}
