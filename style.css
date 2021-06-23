@@ -13,25 +13,31 @@ h1 {
 li {
   display: inline-block;
 }
+.head {
+  margin-top: 3%;
+}
 .content {
   margin: 10px;
   font-size: 15px;
 }
 .relative {
-  position: relative;
+  width: 100%;
+}
+p {
+  text-align: right;
 }
 .back_img {
-  margin: 10% 0% 0% 50%;
-  width: 50vw;
+  width: 50%;
+  margin: 10% 0 0 50%;
 }
+
 .absolute {
-  position: absolute;
-  top: 28vw;
-  font-size: 5vw;
+  font-size: 50px;
+  display: block;
+  margin-top: -20%;
 }
 .color {
   background: linear-gradient(-90deg, #0000cd, #00008b);
-  width: 90vw;
-  height: 15vw;
-  margin: -10vw;
+  width: 60%;
+  padding: 10%;
 }
